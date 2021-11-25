@@ -1,0 +1,157 @@
+*{
+    font-family: 'Bilbo', cursive;
+    text-decoration: none;
+}
+body{
+    
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    display: flex;
+    padding-left: 38%;
+    margin-top: 15px;       
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+nav ul,
+nav li{
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    
+    display: flex;
+}
+nav a{
+    display: block;
+    padding: 15px;
+    text-transform: uppercase;
+    color: rgb(31, 121, 46);
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+}
+nav .active a,
+nav a:hover{
+    background-color: rgb(151, 88, 29);
+    
+}
+#banner{
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/Tolkien4.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+#geral{
+    display: flex;
+    justify-content: center;
+}
+#geral section{
+    flex: 2;
+}
+#geral aside{
+    flex: 1;
+}
+.widget_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    margin-right: 40%; 
+    
+}
+.widget_title_text{
+    margin-left: 10px;
+    color: #000;
+    font-size: 60px;
+    font-weight: bold;
+    
+}
+.widget_title_bar{
+    margin-left: 10px;
+    width: 150px;
+    height: 5px;
+    background-color: rgb(151, 88, 29);
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    flex: 1;
+    min-width: 300px;
+    margin-left: 10px;
+}
+article .book_date{
+    display: flex;
+    font-size: 23px;
+    padding: 10px;
+    margin-right: 2px;
+}
+article .book_cover_img{
+    padding-left: 20px;
+}
+article .book_cover_img2{
+    padding-left: 43%;
+}
+article .book_title{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    color: rgb(151, 88, 29);
+    font-size: 28px;
+}
+article .book_resume{
+    color: #000;
+    font-size: 19px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+footer{
+    background-color: #1e1e1e;
+}
+.footer_copy{
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 1px solid rgb(31, 121, 46);
+    height: 40px;
+    color: #fff;
+    line-height: 40px;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 30%;
+}
+.footer_copy a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(31, 121, 46);
+}
+.menuMobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+.mm_line{
+    height: 3px;
+    background-color: rgb(31, 121, 46);
+}

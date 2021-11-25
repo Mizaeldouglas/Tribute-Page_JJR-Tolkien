@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site FlexBox</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click", function() {
+                if (document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                }else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href=""><img src="assets/images/logo.png" alt=""></a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="">Home</a></li>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Home</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>Top notch experience</h1>
+                <h2>Medicenter is a responsive template perfect for all screen sizes</h2>
+            </div>
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title">Emergency Case</div>
+                    <div class="banner_desc">Algum texto qualquer</div>
+                    <a href="">Read More</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title">Doctors Timetable</div>
+                    <div class="banner_desc">Algum texto qualquer</div>
+                    <a href="">Read More</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title">
+                        <p> Opening Hours</p>
+                        
+                    </div>
+                    <div class="banner_hours">
+                        <p> Monday-Friday</p>
+                        <p>8:00 - 17:00</p>
+                        
+
+                        </div>
+                    <div class="banner_hours">
+                        <p> Saturday</p>
+                        <p>9:30 - 17:30</p>
+                        
+
+                    </div>
+                    <div class="banner_hours">
+                        <p>Sunday</p>
+                        <p>9:30 - 15:00</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Latest News</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body flex">
+                        
+                        <article>
+                            <a href="https://www.lipsum.com/">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEC 12</div>
+                                    <div class="news_comments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="assets/images/dr.jpg" alt="">
+                                </div>
+                                <div class="news_title">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                                <div class="news_resume">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                    Ratione molestiae eligendi quod! Quae veniam deleniti, minima, 
+                                    doloremque dolores fugit minus est ea tempora, 
+                                    magnam commodi cumque excepturi quas repudiandae odit!
+                                </div>
+                            </a>
+                        </article>
+                                                
+                        <article>
+                            <a href="https://www.lipsum.com/">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEC 12</div>
+                                    <div class="news_comments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="assets/images/dr.jpg" alt="">
+                                </div>
+                                <div class="news_title">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                                <div class="news_resume">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                    Ratione molestiae eligendi quod! Quae veniam deleniti, minima, 
+                                    doloremque dolores fugit minus est ea tempora, 
+                                    magnam commodi cumque excepturi quas repudiandae odit!
+                                </div>
+                            </a>
+                        </article>
+                                                
+                        <article>
+                            <a href="https://www.lipsum.com/">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEC 12</div>
+                                    <div class="news_comments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="assets/images/dr.jpg" alt="">
+                                </div>
+                                <div class="news_title">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                                <div class="news_resume">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                    Ratione molestiae eligendi quod! Quae veniam deleniti, minima, 
+                                    doloremque dolores fugit minus est ea tempora, 
+                                    magnam commodi cumque excepturi quas repudiandae odit!
+                                </div>
+                            </a>
+                        </article>
+                                                
+                        <article>
+                            <a href="https://www.lipsum.com/">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEC 12</div>
+                                    <div class="news_comments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="assets/images/dr.jpg" alt="">
+                                </div>
+                                <div class="news_title">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                                <div class="news_resume">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                    Ratione molestiae eligendi quod! Quae veniam deleniti, minima, 
+                                    doloremque dolores fugit minus est ea tempora, 
+                                    magnam commodi cumque excepturi quas repudiandae odit!
+                                </div>
+                            </a>
+                        </article>
+                        
+
+
+                    </div>
+                </div>
+            </section>
+            <aside> 
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Deparments</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_deparments">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Make An Appointment</div>
+                        <p>For more information, please contact our means of communication </p>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_contato">
+                        <div class="widget_contato_tell"> 
+                            <img class="telefone" src="assets/images/telefone.png" alt="">
+                            <a href="tel:+(19)99528-3104">(19)99528-3104</a>
+                        </div>
+                        <div class="widget_contato_email"> 
+                            <img class="email" src="assets/images/email.jpg" alt="">
+                            <a href="mailto:mizaeldouglas2@gmail.com">mizaeldouglas2@gmail.com</a>
+                        </div>
+                        <div class="widget_contato_homepage"> 
+                            <img  class="homepage" src="assets/images/homepage.jpg" alt="">
+                            <a href="https://www.google.com.br">fill in the form</a>
+                              on our contact page
+                            </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container flexColumn">
+            <div class="footer_menu">
+                <div class="fm_1">
+                    <a href="">
+                        <h1>Health Insurance</h1>
+                        <p>Here in medicenter we have individual&#8594; </p>
+
+                    </a>
+                </div>
+                <div class="fm_2">
+                    <a href="">
+                        <h1>Medical Records</h1>
+                        <p>Here in medicenter we have individual &#8594;</p>
+                    </a>
+                </div>
+                <div class="fm_3">
+                    <a href="">
+                        <h1>Online Bill Pay</h1>
+                        <p>Here in medicenter we have individual &#8594;</p>
+                    </a>
+                </div>
+                
+            </div>
+            
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Medicenter Clinic</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_footer_txt1">
+                            <div class="footer_txt1">    
+                                <p>Mauris adipiscing mauris fringilla turpis interdum
+                                sed pulvinar nisi malesuada individual
+                                </p>
+                            </div>
+                            <div class="footer_txt2">
+                                <p>Medicenter Clinic 
+                                   33 Fariane Street
+                                   Keilor East
+                                   VIC 3033, Australia
+                                </p>                                        
+                            </div> 
+                            <div class="footer_txt2">
+                                <p> <a href="tel:+">019 99528-3104</a>
+                                    <a href="tel:+">019 99999-9999</a>
+                                </p>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="footer_areaitem">
+                        <div class="widget">
+                            <div class="widget_title">
+                                <div class="widget_title_text">Lastest Posts</div>
+                                <div class="widget_title_bar"></div>
+                            </div>
+                            <div class="widget_footer_txt2">
+                                <div class="footer-text1">
+                                    <p>&#8594; Mauris adipiscing mauris frindilia
+                                        turpis interdum pulvinar nisi malesuada
+                                    </p>
+                                    <a href="https://www.google.com.br">6 Years ago</a>
+                                </div>
+                                <div class="footer-text2">
+                                    <p>
+                                        &#8594; Lorem ipsum, dolor sit amet consectetur
+                                    </p>
+                                    <a href="https://www.google.com.br">6 Years ago</a>
+                                </div>
+                                <div class="footer-text3">
+                                    <p>&#8594; Mauris adipiscing mauris frindilia
+                                        turpis interdum pulvinar nisi malesuada
+                                    </p>
+                                    <a href="https://www.google.com.br">6 Years ago</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="footer_areaitem">
+                        <div class="widget">
+                            <div class="widget_title">
+                                <div class="widget_title_text">Lastes Tweets</div>
+                                <div class="widget_title_bar"></div>
+                            </div>
+                            <div class="widget_footer_txt3">
+                                <div>
+                                    <p>&#8594; Se interessou?
+                                        Dá uma olhada nos detalhes no site do 
+                                        #TwitterFlightSchool e aproveite o melhor do
+                                         Twitter para sua ONG ou entidade do Terceiro Setor
+                                         <a href="https://nonprofits.twitterflightschool.com/student/catalog?utm_source=twitter&utm_medium=osm&utm_campaign=tfgdaytweet&utm_content=na-na-na-na-pro-na-global-all-en">Link do Twitter</a>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        &#8594; Se interessou?
+                                        Dá uma olhada nos detalhes no site do 
+                                        #TwitterFlightSchool e aproveite o melhor do
+                                         Twitter para sua ONG ou entidade do Terceiro Setor
+                                         <a href="https://nonprofits.twitterflightschool.com/student/catalog?utm_source=twitter&utm_medium=osm&utm_campaign=tfgdaytweet&utm_content=na-na-na-na-pro-na-global-all-en">Link do Twitter</a> 
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        &#8594; Se interessou?
+                                        Dá uma olhada nos detalhes no site do 
+                                        #TwitterFlightSchool e aproveite o melhor do
+                                         Twitter para sua ONG ou entidade do Terceiro Setor
+                                         <a href="https://nonprofits.twitterflightschool.com/student/catalog?utm_source=twitter&utm_medium=osm&utm_campaign=tfgdaytweet&utm_content=na-na-na-na-pro-na-global-all-en">Link do Twitter</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="footer_copy">
+                &#169;Copyright - Todos os direitos reservados <a href="https://www.linkedin.com/in/mizaeel-douglas-aa850a216/">MizaeLDouglas</a>
+            </div>
+
+        </div>
+    </footer>
+    
+
+
+
+
+
+</body>
+</html>
